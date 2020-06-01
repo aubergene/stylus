@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/aubergene/stylus.git#dev",
+      "/Users/bharris115/Repositories/soup/bowl"
+    ]
+  ],
+  "_development": true,
+  "_from": "git+https://github.com/aubergene/stylus.git#dev",
+  "_id": "stylus@git+https://github.com/aubergene/stylus.git#e2b488bb1b83d2a7ce71b2bf2ccc2037188b2a91",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/stylus",
+  "_phantomChildren": {
+    "amdefine": "1.0.1",
+    "inherits": "2.0.4",
+    "sigmund": "1.0.1"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/aubergene/stylus.git#dev",
+    "rawSpec": "git+https://github.com/aubergene/stylus.git#dev",
+    "saveSpec": "git+https://github.com/aubergene/stylus.git#dev",
+    "fetchSpec": "https://github.com/aubergene/stylus.git",
+    "gitCommittish": "dev"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/aubergene/stylus.git#e2b488bb1b83d2a7ce71b2bf2ccc2037188b2a91",
+  "_spec": "git+https://github.com/aubergene/stylus.git#dev",
+  "_where": "/Users/bharris115/Repositories/soup/bowl",
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "bin": {
+    "stylus": "./bin/stylus"
+  },
+  "browserify": "./lib/browserify.js",
+  "bugs": {
+    "url": "https://github.com/stylus/stylus/issues"
+  },
+  "dependencies": {
+    "css-parse": "1.7.x",
+    "debug": "*",
+    "glob": "3.2.x",
+    "mkdirp": "0.5.x",
+    "sax": "0.5.x",
+    "source-map": "0.1.x"
+  },
+  "description": "Robust, expressive, and feature-rich CSS superset",
+  "devDependencies": {
+    "jscoverage": "0.3.8",
+    "mocha": "*",
+    "should": "8.x"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/stylus/stylus",
+  "keywords": [
+    "css",
+    "parser",
+    "style",
+    "stylesheets",
+    "jade",
+    "language"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "stylus",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stylus/stylus.git"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha test/ test/middleware/ --require should --bail --check-leaks --reporter dot",
+    "test-cov": "mocha test/ test/middleware/ --require should --bail --reporter html-cov > coverage.html"
+  },
+  "version": "0.53.0"
+}
